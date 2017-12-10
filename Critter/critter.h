@@ -1,3 +1,6 @@
+#ifndef CRITTER_H_
+#define CRITTER_H_
+#include <iostream>
 using namespace std;
 
 /**
@@ -69,3 +72,5 @@ private:
     int hunger_;
     int active_;
 };
+
+#endif
